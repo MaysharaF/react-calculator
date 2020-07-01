@@ -3,11 +3,11 @@
   width: 410px;
   border-radius: 5px;
   overflow: hidden;
-  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
 
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 75px 75px 75px 75px 75px;
+  grid-template-rows: 1fr 75px 75px 75px 75px 75px;
 }
 
 h1 {
