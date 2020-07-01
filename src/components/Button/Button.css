@@ -1,6 +1,6 @@
 :root {
-  --bg-button: #f0f0f0;
-  --border-button: solid 1px #888;
+  --bg-button: #e0c3fc;
+  --border-button: solid 1px #d4acf8;
 }
 
 .button {
@@ -13,7 +13,8 @@
 }
 
 .button:active {
-  background-color: #ccc;
+  background-color: #cfa8f3;
+  transition: 0.5s;
 }
 
 .button.double {
@@ -25,10 +26,12 @@
 }
 
 .button.operation {
-  background-color: #fa8231;
+  background-color: #8ec5fc;
   color: #fff;
+  transition: 0.5s;
 }
 
 .button.operation:active {
-  background-color: #fa8231cc;
+  background-color: #78b6f5;
+  transition: 0.5s;
 }
